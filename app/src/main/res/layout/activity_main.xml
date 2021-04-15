@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/homepage_button"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/homepage"
+        android:fontFamily="@font/the_oegyeinseolmyeongseo"
+        android:onClick="callback"
+        android:text="@string/homepage"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/dept_button"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/department"
+        android:fontFamily="@font/the_oegyeinseolmyeongseo"
+        android:onClick="callback"
+        android:text="@string/dept"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/diagram_button"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/diagram"
+        android:fontFamily="@font/the_oegyeinseolmyeongseo"
+        android:onClick="callback"
+        android:text="@string/diagram"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/subject_button"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/book"
+        android:fontFamily="@font/the_oegyeinseolmyeongseo"
+        android:onClick="callback"
+        android:text="@string/subject"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/location_button"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/location"
+        android:fontFamily="@font/the_oegyeinseolmyeongseo"
+        android:onClick="callback"
+        android:text="@string/location"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/call_button"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/phone"
+        android:fontFamily="@font/the_oegyeinseolmyeongseo"
+        android:onClick="callback"
+        android:text="@string/call"
+        android:textSize="30sp" />
+
+</LinearLayout>
